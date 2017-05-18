@@ -1,0 +1,27 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"3D Tool (Async Burst-Mode)",
+		"AutoFileName",
+		"BracketHighlighter",
+		"ColorPicker",
+		"Diffy",
+		"DocBlockr",
+		"Emmet",
+		"FileDiffs",
+		"Git",
+		"HTML-CSS-JS Prettify",
+		"jQuery",
+		"Markdown Preview",
+		"Package Control",
+		"Sass",
+		"SideBarEnhancements",
+		"SublimeLinter-jshint",
+		"TrailingSpaces",
+		"Vue Syntax Highlight"
+	]
+}

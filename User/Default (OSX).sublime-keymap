@@ -1,0 +1,19 @@
+[
+	//右
+	{ "keys": ["super+l"], "command": "move","args": {"by": "characters", "forward":true} },
+	//左
+    { "keys": ["super+h"], "command": "move","args": {"by": "characters", "forward":false} },
+	//上
+    { "keys": ["super+k"], "command": "move","args": {"by": "lines", "forward":false} },
+	//下
+    { "keys": ["super+j"], "command": "move","args": {"by": "lines", "forward":true} },
+	// { "keys": ["shift+super+l" ], "command":"move", "args": {"by": "characters","forward": false, "extend": true} },
+	// { "keys": ["shift+super+h"], "command":"move", "args": {"by": "characters","forward": true, "extend": true} },
+	// { "keys": ["shift+super+k" ], "command":"move", "args": {"by": "lines","forward": false, "extend": true} },
+	// { "keys": ["shift+super+j" ], "command":"move", "args": {"by": "lines","forward": true, "extend": true} },
+	//移动光标到行首或行末
+	{ "keys": ["super+b"], "command":"move_to", "args": {"to": "bol","extend": false} },
+	{ "keys": ["super+e"], "command":"move_to", "args": {"to": "eol","extend": false} },
+	{ "keys": ["shift+super+b"], "command":"move_to", "args": {"to": "bol","extend": true} },
+	{ "keys": ["shift+super+e"], "command":"move_to", "args": {"to": "eol","extend": true} },    
+]
